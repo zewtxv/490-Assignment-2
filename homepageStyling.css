@@ -1,0 +1,37 @@
+div {
+    width: 82%;
+}
+
+.details {
+    line-height: 1.4;
+    font-size: 17px;
+}
+
+.date {
+    padding-bottom: 20px;
+    font-size: 13px;
+    color: grey;
+}
+
+#news-details {
+    background-color: #dedede;
+}
+
+.lebronPicture {
+    width: 15px;
+    height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#latest {
+    background-color: blue;
+    color: white;
+}
+
+#toneSetting {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+}
