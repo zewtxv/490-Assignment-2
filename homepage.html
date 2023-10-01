@@ -9,27 +9,36 @@
     <link rel="stylesheet" href="homepageStyling.css">
 </head>
 <body>
-<div id="marquee">
+<table><tr>
 
+<div id="marquee">
+    <td id="latest">
+    <div>
+        <h3>Latest</h3>
+    </div>
+    </td>
+    <td>
     <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
 
-        <div id="latest">
-            <h3>Latest</h3>
-        </div>
 
-        <span class="news-item">LeBron sets tone at Cavs media day</span>
-        <img src="nba_logo.jpg" alt="NBA Logo" class="lebronPicture">
-        <span class="news-item">Rajon Rondo breaks hand in fall</span>
-        <img src="nba_logo.jpg" alt="NBA Logo" class="lebronPicture">
-        <span class="news-item">LeBron: Patience is key for Cavs</span>
-        <img src="nba_logo.jpg" alt="NBA Logo" class="lebronPicture">
-        <span class="news-item">Jackson: Knicks can make playoffs</span>
-        <img src="nba_logo.jpg" alt="NBA Logo" class="lebronPicture">
-        <span class="news-item">Grizzlies sign F Michael Bay</span>
-        <img src="nba_logo.jpg" alt="NBA Logo" class="lebronPicture">
+
+        <span class="news-item"><a href=""> LeBron sets tone at Cavs media day</a></span>
+        <img src="nba_logo.jpg" alt="NBA Logo" class="nbaPicture">
+        <span class="news-item"><a href="">Rajon Rondo breaks hand in fall</a></span>
+        <img src="nba_logo.jpg" alt="NBA Logo" class="nbaPicture">
+        <span class="news-item"><a href="">LeBron: Patience is key for Cavs</a></span>
+        <img src="nba_logo.jpg" alt="NBA Logo" class="nbaPicture">
+        <span class="news-item"><a href="">Jackson: Knicks can make playoffs</a></span>
+        <img src="nba_logo.jpg" alt="NBA Logo" class="nbaPicture">
+        <span class="news-item"><a href="">Grizzlies sign F Michael Bay</a></span>
+        <img src="nba_logo.jpg" alt="NBA Logo" class="nbaPicture">
 
     </marquee>
+    </td>
 </div>
+</tr>
+</table>
+
 
 <div  id="news-details">
     <table><tr>
@@ -45,15 +54,15 @@
         summer, if you remember. So whatever party the city of Cleveland was going to throw to
         celebrate the return of its prodigal son had to be Friday.</p>
         </td>
+
         <td>
     <div class="image-container">
-        <img src="lebron.jpg" width="200px" height="200px" style="padding: 10px" alt="LeBron James">
-
-        <div class="overlay">
-            <p>LeBron James</p>
-        </div>
+        <img src="lebron.jpg" class="lebronPicture" alt="LeBron James">
+        <div class="hover-box">Lebron James</div>
     </div>
+
         </td>
+
     </tr>
     </table>
 </div>
